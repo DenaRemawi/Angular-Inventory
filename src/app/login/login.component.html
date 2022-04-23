@@ -1,0 +1,26 @@
+
+
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Inventory System<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form #f="ngForm"> 
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text"  name="username" class="form-control" placeholder="User Name" ngModel>
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" name="password" class="form-control" placeholder="Password" ngModel>
+                  </div>
+                  <button class="btn" (click)="Onlogin()"  >Login</button>
+                 <button routerLink="/signup" button class="btn"  >Register</button>
+               </form>
+            </div>
+         </div>
+      </div>

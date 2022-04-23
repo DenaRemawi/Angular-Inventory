@@ -1,0 +1,54 @@
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <li class="active"><a href="#" data-hover="Home">Inventory <span data-hover="Home"></span></a></li>
+                          <li><a routerLink="/home/b"  data-hover="About"> Brands</a>
+                          <li><a routerLink="/home/c" data-hover="About">category </a>
+                          <li><a routerLink="/home/s" data-hover="About">stors </a>
+                          <li><a routerLink="/home/a" data-hover="About">Attribute </a>
+                            <li class="dropdown">
+                              <a class="dropbtn">Products <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a routerLink="/home/adp" data-hover="About">Add Products </a>
+                                  <li><a routerLink="/home/map" data-hover="About">Manages Products </a>
+                               
+                              </ul>
+                            </li>
+
+                            <li class="dropdown">
+                              <a class="dropbtn">orders <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a routerLink="/home/aoo" data-hover="About">Add orders </a>
+                                  <li><a routerLink="/home/moo" data-hover="About">Manages orders </a>
+                               
+                              </ul>
+                            </li>
+                          <li><a routerLink="/home/r"data-hover="About">report </a>
+                          <li><a routerLink="/home/co" data-hover="About">company </a>
+                          <li><a routerLink="/home/pr" data-hover="About">profile </a>
+                          <li><a routerLink="/home/se" data-hover="About">setting </a>
+
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<div style="margin: 100px;">
+    <div class="col-xs-12"style="margin-left: 39px;">
+    </div>
+    <router-outlet></router-outlet>
+
+  </div> 
+
